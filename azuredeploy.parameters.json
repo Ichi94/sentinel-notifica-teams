@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "PlaybookName": {
+            "value": "Notifica-Teams-Nuovo-Incident"
+        },
+        "TeamsRecipients": {
+            "value": "analista.soc1@contoso.com;analista.soc2@contoso.com"
+        },
+        "TeamsTeamId": {
+            "value": ""
+        },
+        "TeamsChannelId": {
+            "value": ""
+        },
+        "TeamsWebhookUrl": {
+            "value": ""
+        },
+        "TimeZone": {
+            "value": "W. Europe Standard Time"
+        },
+        "WorkspaceName": {
+            "value": ""
+        },
+        "AzureSecurityInsightsObjectId": {
+            "value": ""
+        }
+    }
+}
